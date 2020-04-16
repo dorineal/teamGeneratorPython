@@ -11,7 +11,7 @@ folder = datetime.date(datetime.now())
 dateFolder = 'pastTeams/' + folder.strftime("%Y-%m-%d")
 filename = os.path.join(dirname, dateFolder)
 if not os.path.exists(filename):
-    os.makedirs(filename)
+  os.makedirs(filename)
 
 # Input ask
 nbPeoplePerTeam = int(input("How many people in each team do you want? "))
